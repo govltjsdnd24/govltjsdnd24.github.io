@@ -14,6 +14,8 @@ Why did I choose Jekyll? It was one of the most used tool for Github Pages. It l
 
 I used http://jekyllthemes.org/ website to find a theme to my liking. Many seemed tempting, but Chirpy looked the slickest. 
 
+![jekyll_theme](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/ae1e02a6-1767-4510-98ec-e8bee601ea20)
+
 There seemed to be 2 ways of using Chirpy as my website. 
 
  1.  Fork it from Github and customize it with Jekyll
@@ -26,6 +28,8 @@ However,  problems began to emerge.
 
 Despite following the guideline and pushing the repository to Github, I could only see the text "--- layout: home # Index page ---" when I connect to the url for my Github Pages. I didn't remember writing such thing in my page. After some exploration, I realized that the aforementioned text was the content of my index.html. However, if correctly set up, Chirpy wasn't supposed to show the text itself, but rather a functional web page. I checked the actions tab from my repository to find out that my build had failed. 
 
+![failed action](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/dc3ce057-7c2b-45e2-8750-f7dd9e92cd87)
+
 Flustered, I searched the internet for enlightenment, and tried the following "solutions":
 
  - changed the pushing repository to main (originally main and master) from .github/workflows/pages-deploy.yml
@@ -35,7 +39,13 @@ Flustered, I searched the internet for enlightenment, and tried the following "s
 
 However, all of the attempts failed, and I decided to just start from scratch--this time using the Chirpy Starter. I created a new repository, downloaded and unzipped the Chirpy Starter into it and pushed the content. Unfortunately, errors still popped up, but this time it didn't occur in the build phase, but rather the test phase.
 
+![build_failed_detail](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/c8a57dcb-5fa7-43f1-bb0a-84b1c69b8e68)
+
 Problems seemed to be happening because links were not being recognized. I searched for answers but to no avail, and tried fidgeting with the content of _config.yaml myself...
+
+![successful_action](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/8da61797-b378-4af0-b1a1-6f8089e7204f)
+
 
 Voila! I made it work. It was because the url had http:// rather than https:// inside the _config.yaml file. Such a dumb and elementary mistake... Nonetheless, ultimately, I was able to make my blog work! Through this experience, I realized that...  I have to start working smarter. Seriously..
 
+![chirpy_starter_success](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/55ce54a1-7f19-470f-ba64-871f337a387a)
