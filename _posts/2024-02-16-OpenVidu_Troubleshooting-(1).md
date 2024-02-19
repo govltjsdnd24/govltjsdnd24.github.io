@@ -29,7 +29,8 @@ The process proceeds in such steps:
  - Establish connection with the session ID -> Token provided
  - Connect to session with the token
  - Traffic data in a publish/subscribe format
-![Web Application Server](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/1816f743-e4af-4001-b3c9-1c0c6e5d2bc8)
+![Web Application Server](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/51c6ec52-f598-4a50-b050-a45bb791ccb9)
+
 
   Each user has to make connection with the session ID in order to join the session, and session ID is invalid as long as it's created by OpenVidu server. The session is opened when the first user comes in and the last user leaves. This means that the session can be seen as perpetual as long as there's a user in it. Tokens, too, are theoretically ever-lasting.
 ## Testing on the Premise
