@@ -53,7 +53,7 @@ All the routers have to be located with in Routers, and when laid out it looks s
 There were some troubleshooting involved in this part because I was referring to a somewhat dated material. The tag `<Route>` has to be used instead of `<Switch>` because the latter is deprecated.
 ![error_router](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/25132fcb-c46b-4aa4-92c9-420b8de54ed6)
 
-Also, each component is recommended to be referred to as element rather than component because, after v6 update of React, the rendering process of a component has been simplified to work with an arrow function as long as you use 'element'.
+Also, each component is recommended to be referred to as element rather than component because, after v6 update of React, the rendering process of a component has been simplified to work with an arrow function as long as you use 'element'. Below is the App component depicted in function format.
 
 ![function](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/856ebb0a-a904-4a36-b39b-78ff37409e45)
 
