@@ -20,7 +20,7 @@ Firstly, I cloned a tutorial project.
 ```bash
 git clone https://github.com/spring-guides/gs-messaging-stomp-websocket.git
 ```
-Then, the next step is coming up with a Resource Representation Class.
+Within the folder you will be able to see two folders: one, an already complete version and two, a barebone model. The tutorial directs us to start with the initial folder, but 
 ## Troubleshooting
 
 ## Reference
