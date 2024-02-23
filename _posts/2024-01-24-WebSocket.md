@@ -1,5 +1,5 @@
 ﻿﻿---
-categories: [ Development, Study, WebSocket]
+categories: [Study, WebSocket]
 tags: [socket] 
 ---
 
