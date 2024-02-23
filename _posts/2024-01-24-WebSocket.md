@@ -1,6 +1,6 @@
 ﻿﻿---
-categories: [Study, WebSocket]
-tags: [socket] 
+categories: [ Study, WebSocket]
+tags: [ websocket ] 
 ---
 
 I'm starting a project that has a heavy emphasis on WebRTC technology, which provides consistent text, audio, and video data transmission between among clients. Then I thought, "what's the difference between WebSocket and WebRTC if both of them allow communication between clients?", and proceeded to dig deeper into the topic.
