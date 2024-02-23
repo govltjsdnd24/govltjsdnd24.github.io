@@ -10,6 +10,8 @@ Why would we need to use WebSocket? WebSocket is used in the fulfillment of a tr
 
 WebSocket is a bidirectional communication protocol that resides over TCP. It allows transmission of data between a client and a server, and requires STOMP (Simple/Streaming Text Oriented Messaging Protocol) running atop it since STOMP defines the specification and interoperable format of messages being transferred. WebRTC, the API that I want to implement, is a direct interaction among multiple clients with little to no mediator in between; the presence of a server between clients is the difference between the two technologies.
 
+![Client](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/0d4d5851-6c08-4e66-9853-c449738ffe73)
+
 ## General Process
 
 Now that we briefly went over the definition of WebSocket, we must know learn how to implement it. "But, wait" you ask, "if it's not related to WebRTC, why would you want to use it?" The reason is: the asynchronous trigger that WebSocket brings is really useful in many situations (for example: chat session or notification functions). 
@@ -23,18 +25,18 @@ git clone https://github.com/spring-guides/gs-messaging-stomp-websocket.git
 Within the folder you will be able to see two folders: one, an already complete version and two, a barebone model. The tutorial directs us to start with the initial folder, so let's go start over there.
 You can begin by using Spring Initializer or just use the content of the initial folder, but I knew how to use the Initializer already so chose the latter. If you are curious what a Spring Initializer is, it's just a tool used to initialize your Spring project with all the necessary dependencies and settings already configured for you.
 
-Initializer image
+![Initializer](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/8984c4d4-afd0-4f60-b6c3-532803fc8e07)
 
 Now, before you move on, you should check you Java version, and make sure they are in accord with the version set in the project. I had JDK 21 and this caused the version mismatch error because the one configured in the project was 17. 
 
 Anyways, now that's past us, we must create a Resource Representation Class. STOMP messages are in a JSON format, and with the use of Jackson JSON library, Spring can turn JSON into objects, if corresponding objects are found, that is. We come up with two classes: one for the name, and one for the content. Remember that using Lombok for getter, setter, and the constructor will be able to shorten the code.
 For a short instruction on the implementation of Lombok (on IntelliJ). First, you add dependencies for Lombok.
 
-Lombok Image 1
+![Lombok_setting_1](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/59acdbb7-6c1c-4c71-9248-bdf32e02b1f2)
 
 Then, enable annotation processing.
 
-Lombok Image 2
+![Lombok_setting_2](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/f0517faf-ef5f-4988-bcc8-35836d8d7407)
 
 Below is the example of a STOMP message for name:
 ```JSON
@@ -156,7 +158,7 @@ It just seems really long and daunting at first sight, but to put it simply, by 
 
 This is the resulting screen you will get upon success:
 
-success Image
+![result](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/15049668-3894-4a80-a4e3-5f8d613d8105)
 
 ## Conclusion
 Today I described the process I took while trying to implement the WebSocket. It wasn't really a complicated work, so I didn't have any problem along the way. Of course, there were some minor troubleshooting involved, which have been omitted for the sake of the length of the article. I'll cover that along with the developement of the said project in the next post if possible. 
