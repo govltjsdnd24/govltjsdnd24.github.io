@@ -18,7 +18,7 @@ These are the lines of codes required to download the essentials of Three.js on 
 
 For the model, I got it from sketchfab, a website where you can find various types of models for free or at least a reasonable amount of money. Another reason why I preferred this website was that it provided model files in gltf file, which is in a JSON format comprehsnible by JSX; this is different from binary files such as fbx or glb--which can be converted to JSON file but require additional procedures.
 
---sketchfab image--
+![sketchfab](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/b509b604-7773-40df-87b8-c3be04cd1a1b)
 
 Next, we must convert the gltf file into a jsx file, because it won't be useful to us otherwise. For this step, we first download gltfjsx, then convert the gltf file with the provided command.
 ```bash
@@ -27,12 +27,11 @@ npx gltfjsx <gltf file>
 ```
 The resulting jsx file would something like this: 
 
---jsx image--
-
+![jsxmodel](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/6c30b975-6888-400c-8af2-c2cc7e5f6a99)
 
 Relocate the folder containing the model to <i>public</i> folder. Then, move the jsx file into the src folder. If you do not do this, three.js is unable to locate the required files and will return errors as such:
 
---error image--
+![error](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/4f3be362-e7fe-4195-a935-0eaf33c8009d)
 
 Now all you have to do is import the model and display it.
 
@@ -61,8 +60,7 @@ Something like this.
 
 Voila! You were able to import your very first model.
 
---result screen--
-
+![result_Screen](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/5db33e7e-3f92-46df-9d1a-a17a34e20b63)
 
 ## Conclusion 
 That was it for the topic of "Three.js in React". It wasn't a very bumpy ride, because there were some guidelines in the internet that I could follow. The only thing holding me back is that most of the data found on the web about Three.js is not conducted within React. I believe additional effort would be required for a seemless tranisition from the original code to a one habitable in React's turf.
