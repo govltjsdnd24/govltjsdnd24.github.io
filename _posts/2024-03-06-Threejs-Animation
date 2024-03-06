@@ -45,7 +45,7 @@ useFrame(({ clock }) => {
 ```
 Some alterations have been made to make the movement happen faster and in shorter interval, but the general idea is identical. I wanted the rotation to take place in z-direction, and have changed it accordingly. After the application of this code block, the result will look something like this:
 
---rotate gif--
+![oscillate](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/77683bed-d88b-4cf1-9173-61b10d1ce98f)
 
 One can also add a more refined animation upon click event.
 ```JSX
@@ -71,7 +71,7 @@ import { useSpring, animated, config } from "@react-spring/three";
 ```
 This code will use React-Spring, which is a library that allows fluid transition for UIs and graphical objects, in order to adjust the element's size upon click event--triggered by a <i>active</i> status; it doesn't only adjust the scale, but also adds a wobbly effect in the transition.
 
----zoom gif---
+![grow-shrink](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/17acd6f9-aa0b-43e9-a3ff-0459035e426b)
 
 Likewise, such animation can be easily implemented to our project. 
 
