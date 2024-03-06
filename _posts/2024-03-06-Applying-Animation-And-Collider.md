@@ -11,21 +11,23 @@ So, last time I talked about the ways of importing different types of model file
 
 First off, we fetch the model and animation. A great website for this is Mixamo. Mixamo allows its users a library of characters and animations to use. Furthermore, users can bring their own model (in fbx file format) and attach skeletal points on it; this will be especially useful because the default characters available on the website is plain HORRIBLE. 
 
-![alt text](image.png)
+![mixamo](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/93f985c7-4917-485a-ba9d-5dae417d3173)
 
 Their archive of animations is, on the other hand, very useful, and I strongly advise you use it. I tried uploading my fbx model primarily, but discovered later on that it was a faulty one, so had to retrogress to choosing the default model. Choose to download the animation <u>along with the model</u>. I found it much easier to do this over just downloading the animation, even risking the trade-off of having a large size project.
 
-![alt text](image-1.png)
+![download](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/cec47567-3bcb-4312-98eb-ac6840f63d39)
 
 After you acquire the model and animation, it's time for you to render it to a glb file. You must first download Blender (don't worry it's free), and import the fbx file into the software. Now you would get a screen that resembles something like this:
 
-![alt text](image-2.png)
+![blender_full](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/89ba81d6-6e05-4974-82ca-7bd96dff89a1)
 
 Here, you must edit the name of the animation, because you have to be able to refer to it later on in the model's JSX file. For this, click on the dropdown menu on the lower compartment. It should originally say <i>Dope sheet</i>. You must change this to <i>Action Editor</i>
-![alt text](image-3.png)
+
+![dropdown](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/b09abf03-bfd3-4aac-b8e2-6ac5c4a0c2fe)
 
 Then, change the name of the animation by clicking on the dropdown box with the animation list. Change it to something much simpler.
-![alt text](image-4.png)
+
+![name_change](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/09814136-5610-46a4-bb49-72cee368e95f)
 
 Now that you've renamed the animation, export the model to a glb format, and head to your React project. Move your model to anywhere in your public folder--I moved it to a subdirectory called <i>models</i>. Now access the terminal and type in
 ```bash
@@ -103,7 +105,7 @@ The <i>RigidBody</i> on the bottom is of "fixed" type. Why is that? That's becau
 
 Finally, let's take a look at our result.
 
-![alt text](result.gif)
+![result](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/0a0e15d8-4d47-4376-9108-257213d6e533)
 
 Perfect.
 
