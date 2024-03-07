@@ -35,14 +35,14 @@ npx gltfjsx <model_name>.glb
 ```
 inside the directory with the model. This should create the JSX file for the model. Now you move this to the <i>src</i> folder, like you did last time. Then, it's time for you to add a code block that would catalyze the animation.
 
-```JSX
+```javascript
 useEffect(()=>{
     actions.<action_name>.play();
   })
 ```
 Yes. It's that simple. FYI, this would be my full JSX code.
 
-```JSX
+```javascript
 import React, { useEffect, useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
