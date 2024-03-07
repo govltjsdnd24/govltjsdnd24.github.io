@@ -42,7 +42,7 @@ The next part is keyboard mapping and application. We map the keyboard so that i
 
 The resulting screen would something like this.
 
---move.gif--
+![move](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/0f3478e8-fdf9-4bda-b0c7-e4be83f10549)
 
 ## Event Hook
 
@@ -57,7 +57,7 @@ Something like this perhaps? Don't forget to make a similar function for handleK
 
 The event looks like this:
 
---keyboard_input--
+![keyboard_input](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/aa097d93-7c9c-4dcb-bb9e-bd696a6bedb7)
 
 Let's elaborate the code further by adding details into the function. The event would be key press, and look something like "KeyW". We save the input and let it go through our mapping table.
 
@@ -70,7 +70,7 @@ Let's elaborate the code further by adding details into the function. The event 
 
 This way, we can alter the data into a useful format. Like this!
 
---keyboard_processed--
+![keyboard_processed](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/13807ea3-fffb-4d56-970a-911bcea450ea)
 
 Next, we utilize useEffect hook inside our model jsx in order to play animation according to the input, dividing the actions into walk, run, and idle.
 
@@ -93,7 +93,7 @@ useEffect(() => {
 
 However, here I encountered a problem. 
 
---moonwalk.gif--
+![moonwalk](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/630f6bbd-a934-49e8-8699-b482da92666d)
 
 Yes, even when standing still, the model is walking. Also, there was a symptom where you switch from one keyboard input to another switfly, the model is stuck in the idle animation and will basically "slide" on the surface. 
 
@@ -153,7 +153,7 @@ I created a state in a set form to memorize all currently pressed keyboard input
 
 Through this process, I was able to implement a full and functional game-like environment.
 
---result--
+![success](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/5256d733-9a48-46cd-b122-12cec8f8116a)
 
 ## Conclusion 
 Finally! I added all the rudimentary parts of a game! Of course, I'm not trying to make a game here, but movement plays a key role in my current project, and being able to succesfully construct the system from ground up in a foreign domain such as three.js is indisputably a worthy accomplishment.
