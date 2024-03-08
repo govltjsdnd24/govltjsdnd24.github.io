@@ -3,7 +3,7 @@ categories: [ Development, React]
 tags: [ three.js ] 
 ---
 
-The front-end part of my current project is progressing at a fast speed, and since I am constantly being hurled at novel things to learn every step I make, I had to make a new post the day after I wrote one. This article is continued from the one before so I advice you take a look at that first. 
+The front-end part of my current project is progressing at a fast speed, and since I am constantly being hurled at novel things to learn every step I make, I had to make a new post almost right after I wrote one. This article is continued from the one before so I advice you take a look at that first. 
 
 ## Keyboard Input
 
