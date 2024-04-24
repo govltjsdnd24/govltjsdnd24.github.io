@@ -13,6 +13,8 @@ Message Queue is the component of a messaging middleware solution which enables 
 
 Let's say that there is a web service that automatically revises and corrects faults in videos. We want 50 concurrent requests to be able to be processed, but only 10 files can be worked on simultatneously in a single machine. If the services are embedded in a single batch, this problem is solved by multiplicating the device count by 5. 
 
+![Java Appliaction](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/ec1bd74d-9c57-46ae-82db-ee0d22d7ca50)
+
 However, let's see that the Web Application Server is implemented in Java while the automatic correction module is written in C++. The OS is also different; the former works in Windows while the latter in Linux. We know that we can't be running the entire process in a single machine. This is the circumstance where message queues can be useful. Because of message queue's asynchronous nature, it ensures execution of the request even if it is not concurrent.
 
 Let's take a look at a more theoretical example: Monolith and Microservices. Monolith has all components of a service in a single group, while in Microservice, each service is seperated. This makes communication among various services in Microservices very important.
