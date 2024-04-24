@@ -63,22 +63,22 @@ There are also some differences present in the ALTER TABLE command as well.
 1. Column Type Modification
 
 MySQL
-```SQL
+``` SQL
 ALTER TABLE "TABLE" MODIFY "COLUMN" "DATA_TYPE";
 ```
 PostgreSQL
-```SQL
+``` SQL
 ALTER TABLE "table_name" ALTER COLUMN "COLUMN" TYPE "DATA_TYPE";
 ```
 
 2. Column Renaming
 
 MySQL
-```SQL
+``` SQL
 ALTER TABLE "TABLE" CHANGE "OLD_COLUMN" "NEW_COLUMN" "DATA_TYPE";
 ```
 PostgreSQL
-```SQL
+``` SQL
 ALTER TABLE "TABLE" RENAME COLUMN "OLD_COLUMN" TO "NEW_COLUMN";
 ```
 
