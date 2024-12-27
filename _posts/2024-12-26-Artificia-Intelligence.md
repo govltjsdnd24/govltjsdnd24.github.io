@@ -24,6 +24,9 @@ Azure Machine Learning Studio provides these AI environments:
 - Azure Machine Learning : GUI-based machine learning solution
 - Data Matrix Visualization
 - Notebooks
+- 
+![image](https://github.com/user-attachments/assets/f2289b5d-2329-43c0-93aa-f8f7cfe6589a)
+
 
 ![Java Appliaction](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/ec1bd74d-9c57-46ae-82db-ee0d22d7ca50)
 
@@ -43,28 +46,33 @@ Azure Vision Studio provides these CV environments:
 - Face
 - OCR
 
+![image](https://github.com/user-attachments/assets/2977e224-fb89-4282-8e1a-0a0018109d97)
+
 
 ## Natural Language Processing
 
-NLP is the area of AI which is responsible for handling written and spoken language.
+NLP is the area of AI which is responsible for handling written and spoken language. Some examples of a NLP-based usages are deciphering emails, creating responses for audio input, translation, and understanding NL input.
 
 Azure AI Language provides these AI environments:
 - Azure AI Voice
 - Azure AI Translator
 - Azure Language Studo
 
-
 ## Document Intelligence
 Document Intelligence is an area of AI which takes care of mass management, processing, and utilization of data within documents and forms. 
 
 Azure AI Document Intelligence accelerates the process of accumulating data from scanned documents. This process, often referred to as "Knowledge Mining", extracts a large quantity of irregular data to make a perfectly usable information centers. 
 
+![image](https://github.com/user-attachments/assets/52c137c8-3191-4cea-96f2-b9488aebeade)
 
 
 ## Generative AI
 Generative AI is capable of creating a seemingly original content. It accepts natural language input and returns natural language, image, code, or aurio-based output in an appropriate format.
 
 Azure OpenAI Service is Microsoft's cloud solution for deploying, hosting and configuring our very own generative AI.
+
+![image](https://github.com/user-attachments/assets/c41b70c1-723d-48e3-8da2-922f13c8333f)
+
 
 
 ## Challenges involved in the implementation of AI
