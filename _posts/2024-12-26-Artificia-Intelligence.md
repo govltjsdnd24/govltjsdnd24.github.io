@@ -15,7 +15,6 @@ AI is a software which "mimics" a human being's actions and functionalities, wit
 - Knowledge Mining
 - Generative AI
 
-
 ## Machine Learning
 How do machiens learn? They learn from data, which is abundant in the world that we live in today. Data scientists utilize these data in order to train machine learning models capable of making predictions. For this to work out, models must recognize the relationship between data. (Example: botanitsts and scientists develop an algorithm/pattern of classifying flowers as they study several of them)
 
@@ -24,13 +23,8 @@ Azure Machine Learning Studio provides these AI environments:
 - Azure Machine Learning : GUI-based machine learning solution
 - Data Matrix Visualization
 - Notebooks
-- 
+
 ![image](https://github.com/user-attachments/assets/f2289b5d-2329-43c0-93aa-f8f7cfe6589a)
-
-
-![Java Appliaction](https://github.com/govltjsdnd24/govltjsdnd24.github.io/assets/38126462/ec1bd74d-9c57-46ae-82db-ee0d22d7ca50)
-
-
 
 ## Computer Vision
 Computer vision is responsible for the "visual" aspect of AI. It involves various fundamental tasks:
