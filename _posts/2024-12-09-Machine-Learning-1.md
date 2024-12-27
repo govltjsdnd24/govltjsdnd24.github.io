@@ -37,10 +37,13 @@ The training and inference process advances in the following steps:
     - In a way, clustering is similar to multiclass classification (Grouping based on observation). However, the difference is that if the model is aware of classes the training data belongs in. 
     - Sometimes, clustering is used before training to decide existing class sets. For example, clustering can be used to divide customers into groups before analyzing them for their class features. Then, classification is used to put labels on the clustered result, and the labeled data can be used to train a model which predicts the group a new customer will belong in.
 
+![image](https://github.com/user-attachments/assets/c1ef0e08-6cf7-42e4-a869-30ab2515e714)
+
 
 ## Regression
 Regression models produce number labels based on training data including functions and known labels. A process of training model and evaluating prediction performance is repeated until a certain level of prediction accuracy is met. The diagram below shows the main elements of a training process of SML:
 
+![image](https://github.com/user-attachments/assets/7b061862-b96e-4bf2-a1f3-eb3482a0b9bd)
 
 
 1. Divide dataset for testing valditity of the model, while maintaining the data's subset.
@@ -65,13 +68,14 @@ Binary classification, being a SML, also follows a repetitive process to improve
 
 When training a binary classification model, algorithms like logistic regression is used. A sigmoid function portraying the result can be seen below.
 
+![image](https://github.com/user-attachments/assets/9d0041dd-cff7-4b42-810a-7d056782f7de)
 
 Which can be portrayed as f(x) = P(y=1 | x) in a function.
 We drew a line in the middle, so y<0.5 means false and the other half would be true.
 
 The matrix for evaluating a binary classification looks like the one below.
 
-
+![image](https://github.com/user-attachments/assets/f29365ae-3ca7-43cf-9f91-4e00555b5396)
 
 This is called a confusion matrix, and returns values as followed:
 
@@ -96,6 +100,8 @@ The F1 (matrix combining recall and precision) is measured like this:
 - (2 * PREC * REC) / (PREC + REC)
 
 The AUC (Area Under Curve) depicts the area under the ROC (graph comparing TPR and FPR, depicting how TPR and FR changes as it approaches the threshold) parabola. If the AUC is 1.0, it is a perfect model (100% correct), and 0.5 means an entirely random guess.
+
+![image](https://github.com/user-attachments/assets/ae50a7a4-2811-4c7b-9516-a6dfda0048ae)
 
 ## Reference
 
