@@ -1,5 +1,5 @@
 ---
-categories: [ Study, PostgreSQL]
+categories: [ Study, PostgreSQL ]
 tags: [ rdbms ] 
 ---
 

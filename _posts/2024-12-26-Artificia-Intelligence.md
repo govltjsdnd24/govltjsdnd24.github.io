@@ -1,5 +1,5 @@
 ---
-categories: [ Study, ArtificialIntelligence]
+categories: [ Study, ArtificialIntelligence ]
 tags: [ ai ] 
 ---
 

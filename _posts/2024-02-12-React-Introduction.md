@@ -1,5 +1,5 @@
 ---
-categories: [ Development, React]
+categories: [ Development, React ]
 tags: [ react ] 
 ---
 

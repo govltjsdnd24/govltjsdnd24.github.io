@@ -1,5 +1,5 @@
 ---
-categories: [ Study, MessageQueue]
+categories: [ Study, MessageQueue ]
 tags: [ mq ] 
 ---
 
