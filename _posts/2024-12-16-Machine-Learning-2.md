@@ -21,6 +21,8 @@ Multiclass Classification uses multiple training algorithms, among which are:
 
 The evaluation of multiclass classification is done through a confusion matrix.
 
+![image](https://github.com/user-attachments/assets/a5b933ab-5a44-47cf-9daf-012f9587cf95)
+
 
 The total accuracy, recall, and precision, when using the above matrix would be.
 - Total Accuracy = (13+6)÷(13+6+1+1) = 90%
@@ -69,6 +71,7 @@ The weight of a NN is the key for calculating predicted values of labels. The mo
 6. The weight change history is backpropagated into the network layers to replace previously used weight.
 7. This process goes through repeated epochs until the loss is minimized and the model can make predictions to some degree.
 
+![image](https://github.com/user-attachments/assets/01c2d433-52be-4507-b040-be5062f6a6bf)
 
 
 ## Azure Machine Learning
@@ -98,6 +101,8 @@ Users can run the following tasks with the Azure Machine Learning Studio:
 - View details of trained models, including evaluation metrics, responsible AI information, and training parameters
 - Deploy trained models for real-time and batch inference
 - Import and manage models from a comprehensive model catalog
+
+![image](https://github.com/user-attachments/assets/1bf25fdf-ff49-4caa-a5f1-1e3694265d2f)
 
 ## Reference
 
