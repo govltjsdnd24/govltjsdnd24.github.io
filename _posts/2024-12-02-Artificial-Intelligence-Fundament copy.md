@@ -1,5 +1,5 @@
 ---
-categories: [ Study, ArtificialIntelligence ]
+categories: [ Study, Artificial Intelligence ]
 tags: [ ai ] 
 ---
 
@@ -76,6 +76,17 @@ Azure OpenAI Service is Microsoft's cloud solution for deploying, hosting and co
 - Solution may not be applicable to everyone
 - Users must trust in the complicated system
 - Whose responsibility is an AI-based choice?
+
+## Undertanding AI
+
+Microsoft's AI Software development adheres to six fundaments in order to prevent any negative outputs.
+
+- Fairness : an AI system must treat everyone equally
+- Fidelity and Stability : an AI system must work in a safe and reliable manner
+- Privacy and Security : an AI system must protect private information
+- Inclusiveness : an AI system must strengthen and build relationship among people
+- Transparency : an AI system must be comprehensible and predictable
+- Reponsibility : an AI system must be liable
 
 
 ## Reference
