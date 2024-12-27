@@ -74,5 +74,5 @@ Anyways I will try to leave any inspiration I acquired during my way like today'
 
 ## Reference
 
-[https://www.rabbitmq.com/docs/queues] (https://www.rabbitmq.com/docs/queues)
+[https://www.rabbitmq.com/docs/queues](https://www.rabbitmq.com/docs/queues)
 
