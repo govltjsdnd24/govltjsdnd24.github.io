@@ -11,9 +11,9 @@ Multiclass Classification predicts which of the multiple classes the input belon
 Multiclass Classification uses multiple training algorithms, among which are:
 - OvR(One-vs-Rest) Algorithm : proceeds machine learning based on the binary classification function of each class, and each class calculates the probability of the observed instance being a target class.
     - If there are 3 classes, there would be 3 binary classification functions:
-        - f0(x) = P(y=0 | x)
-        - f1(x) = P(y=1 | x)
-        - f2(x) = P(y=2 | x)
+        - f0(x) = P(y=0|x)
+        - f1(x) = P(y=1|x)
+        - f2(x) = P(y=2|x)
     - Each algorithm forms a sigmoid fuction calculating probability between 0.1 and 1.0.
     - We predict the class of the functionwhich creates the highest probability output.
 - Polynomial Algorithm : An algorithm with the output being the vector(array) containing the probability variance of all the classes, with the probability adding up to 1.0.
