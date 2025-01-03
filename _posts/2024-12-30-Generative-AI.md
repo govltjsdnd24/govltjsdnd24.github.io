@@ -26,6 +26,8 @@ The process could be described as such:
 
 However, not all transformer model architectures follow the same process. BERT(Bidirectional Encoder Representations from Transformers) model from Google uses only encoder blocks, but GPT only uses decoder blocks.
 
+![image](https://github.com/user-attachments/assets/5e0ff877-6eae-4bc4-9ecc-aa7b93fd2026)
+
 
 ## Tokenization
 
@@ -40,6 +42,9 @@ Let's take for example a 3d vector with the following words: dog, cat, puppy, an
 - 10 ("skateboard"): [-3,3,2]
 
 Puppy and dog, while having different set of numbers, have a similar direction, and cat and dog has a similar positioning overall. However, skateboard is in a completely different position and direction, rendering it irrelevant.
+
+![image](https://github.com/user-attachments/assets/d0bed15d-eaee-4193-9fe1-e53ab6dfe588)
+
 
 ## Attention
 
